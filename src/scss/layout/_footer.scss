@@ -6,21 +6,30 @@
   padding-top: 60px;
   padding-bottom: 60px;
   & ul {
-    color: $white;
-    font-family: $paragraph;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 300;
     text-align: center;
     list-style: none;
+
+    & a {
+      color: $white;
+      font-family: $paragraph;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 300;
+      text-decoration: none;
+      & :hover {
+        transform: scaleX(1.5);
+      }
+    }
   }
-}
-.footer__ul--copyright {
-  color: $white;
-  font-family: $paragraph;
-  font-size: 14px;
-  line-height: 30px;
-  font-weight: 300;
-  text-align: center;
-  list-style: none;
+
+  & .footer__copyright {
+    color: $white;
+    font-family: $paragraph;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .fa-solid,
+  .fa-heart {
+    color: $dark-green;
+  }
 }
