@@ -1,1 +1,61 @@
+.container {
+  background-color: $light-green;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
 
+  .container__text {
+    font-family: $title;
+    line-height: 30px;
+    text-align: center;
+
+    span {
+      font-size: 12px;
+      color: $grey;
+    }
+    h3 {
+      font-size: 20px;
+      color: $black;
+    }
+  }
+  .container__pictures {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .container__pictures--picture1,
+  .container__pictures--picture2,
+  .container__pictures--picture3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    img {
+      width: 114px;
+      height: 124px;
+      border-radius: 50%;
+      margin: auto;
+    }
+    span {
+      font-family: $title;
+      font-size: 14px;
+      font-weight: bold;
+      color: $black;
+    }
+  }
+  .container__button {
+    @include button;
+    margin: auto;
+    margin-top: 5px;
+    width: 184px;
+    height: 47px;
+    background-color: $dark-green;
+    a {
+      color: $white;
+    }
+  }
+}
