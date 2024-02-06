@@ -1,7 +1,6 @@
 .container {
   align-items: center;
   background-color: $light-green;
-  padding-bottom: 40px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);

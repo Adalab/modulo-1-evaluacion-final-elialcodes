@@ -2,14 +2,29 @@
   background-color: $grey;
   display: flex;
   flex-direction: column;
-  gap: 28px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  & ul {
+  gap: 15px;
+  padding-bottom: 50px;
+
+  .footer__arrow {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $white;
+    text-align: center;
+    padding-top: 9px;
+    transform: translateY(-50%);
+    img {
+      width: 50%;
+      color: $dark-green;
+    }
+  }
+  ul {
     text-align: center;
     list-style: none;
+    padding-bottom: 10px;
 
-    & a {
+    a {
       color: $white;
       font-family: $paragraph;
       font-size: 16px;
@@ -22,7 +37,7 @@
     }
   }
 
-  & .footer__copyright {
+  .footer__copyright {
     color: $white;
     font-family: $paragraph;
     line-height: 30px;
