@@ -1,1 +1,26 @@
-
+.footer {
+  background-color: $grey;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  & ul {
+    color: $white;
+    font-family: $paragraph;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    list-style: none;
+  }
+}
+.footer__ul--copyright {
+  color: $white;
+  font-family: $paragraph;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  list-style: none;
+}
