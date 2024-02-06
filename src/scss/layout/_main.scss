@@ -1,0 +1,34 @@
+.main-section {
+  padding: 40px 15px 30px 15px;
+  display: flex;
+  flex-direction: column;
+  & span {
+    color: $dark-green;
+    font-family: $paragraph;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  & h2 {
+    color: $black;
+    font-family: $title;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  & p {
+    color: $grey;
+    font-family: $paragraph;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  & a {
+    @include button;
+    border: solid 2px $dark-green;
+    background-color: $white;
+    color: $dark-green;
+    text-decoration: none;
+    color: $dark-green;
+  }
+}
