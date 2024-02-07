@@ -37,9 +37,9 @@
       font-size: 16px;
       line-height: 30px;
       font-weight: 300;
-
-      & :hover {
-        transform: scaleX(1.5);
+      text-decoration: none;
+      &:hover {
+        font-weight: 600;
       }
     }
   }
@@ -61,7 +61,7 @@
     color: $white;
     font-family: $paragraph;
     line-height: 30px;
-    font-size: 14px;
+    font-size: 16px;
     @media (min-width: 768px) {
       order: 1;
     }
@@ -72,6 +72,8 @@
     .fa-solid,
     .fa-heart {
       color: $dark-green;
+      font-size: 50px;
+      @include heart;
     }
   }
 }
