@@ -19,6 +19,7 @@
       color: $dark-green;
     }
   }
+
   ul {
     text-align: center;
     list-style: none;
@@ -42,9 +43,10 @@
     font-family: $paragraph;
     line-height: 30px;
     font-size: 14px;
-  }
-  .fa-solid,
-  .fa-heart {
-    color: $dark-green;
+
+    .fa-solid,
+    .fa-heart {
+      color: $dark-green;
+    }
   }
 }
