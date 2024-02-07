@@ -2,28 +2,50 @@
   padding: 40px 15px 30px 15px;
   display: flex;
   flex-direction: column;
-  & span {
+  @media (min-width: 768px) {
+    padding: 40px 40px 60px 40px;
+  }
+  @media (min-width: 1280px) {
+    padding: 40px 170px 60px 170px;
+  }
+
+  span {
     color: $dark-green;
     font-family: $paragraph;
     font-size: 14px;
     line-height: 30px;
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
   }
-  & h2 {
+
+  h2 {
     color: $black;
     font-family: $title;
     font-size: 22px;
     font-weight: bold;
     line-height: 30px;
+    @media (min-width: 768px) {
+      font-size: 32px;
+      line-height: 45px;
+    }
   }
-  & p {
+
+  p {
     color: $grey;
     font-family: $paragraph;
     font-size: 18px;
     line-height: 30px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    @media (min-width: 768px) {
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
   }
-  & a {
+
+  a {
     @include button;
     width: 160px;
     height: 45px;
