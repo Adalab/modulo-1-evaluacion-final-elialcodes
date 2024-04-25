@@ -1,7 +1,8 @@
 # Maquetación de una tienda online
 
-He utilizado HTML y CSS para realizarlo.
+url: https://elialcodes.github.io/layout-web-store/
 
+He utilizado HTML y CSS para realizarlo.
 Los pasos a seguir han sido:
 
 - creación de una escturtura de ficheros en el starter kit para facilitar la organización del código
