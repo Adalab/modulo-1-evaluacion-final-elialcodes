@@ -1,2 +1,2 @@
-console.log(">> Ready :)");
+console.log(">> Ready :-)");
 //# sourceMappingURL=main.js.map
