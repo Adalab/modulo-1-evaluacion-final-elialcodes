@@ -1,17 +1,21 @@
-# Maquetación de una tienda online
+# Sport store on line :football::baseball::golf::surfer::soccer:
 
-url: https://elialcodes.github.io/layout-web-store/
+Responsive layout of an online sports store. The website is responsive, special care has been taken to ensure that it looks good on all types of devices. 
 
-He utilizado HTML y CSS para realizarlo.
-Los pasos a seguir han sido:
 
-- creación de una escturtura de ficheros en el starter kit para facilitar la organización del código
-- creación de ficheros partials htlm y scss así como fichero reset y fichero variables
-- he organizado la web en 4 partes: header/hero, main, section y footer
-- para cada parte, he ido haciendo partial html y su correspondiente partial en scss
-- al observar algunos elementos con estilos comunes en varias partes, he realizado un mixim para reutilizar el código scss
-- layout responsive: he comenzado según criterio mobile first y he seguido con el diseño responsive para tablet y desktop con media queries
-- creación de dos botones con las propiedades transform y transition
-- he añadido la propiedad animation en un pequeño logo situado en el footer 
-  
+## Features :star:
+ - Website in 4 parts: header/hero, main, section and footer
+ - Mobile first criteria and continued with the responsive design for tablet and desktop
+ - Two buttons with the transform and transition properties
+ - Small logo located in the footer with animation property
+ - Sass mixim to reuse the scss code because there are elements with common styles in several parts
 
+
+## Tech Stack :computer::books:
+
+** HTML, CSS, Sass
+
+
+## Links  🔗 
+
+https://elialcodes.github.io/layout-web-store/
