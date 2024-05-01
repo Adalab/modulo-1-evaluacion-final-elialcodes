@@ -13,7 +13,7 @@ Responsive layout of an online sports store. The website is responsive, special 
 
 ## Tech Stack :computer::books:
 
-** HTML, CSS, Sass
+HTML, CSS, Sass
 
 
 ## Links  🔗 
