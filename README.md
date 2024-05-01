@@ -16,6 +16,21 @@ Responsive layout of an online sports store. The website is responsive, special 
 HTML, CSS, Sass
 
 
+## Installation 💻 
+
+- Clone the repository: https://github.com/elialcodes/layout-web-store.git
+- Install node_modules folder: 
+
+```bash
+  npm install
+```
+- Start the project: 
+
+```bash
+  npm run dev
+```
+
+
 ## Links  🔗 
 
 https://elialcodes.github.io/layout-web-store/
