@@ -1,4 +1,4 @@
-# Sport store on line :football::baseball::golf::surfer::soccer:
+# Sport store on line :football: :golf: :surfer: :soccer:
 
 Responsive layout of an online sports store. The website is responsive, special care has been taken to ensure that it looks good on all types of devices. 
 
